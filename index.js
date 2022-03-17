@@ -2,9 +2,9 @@ const cTable = require('console.table');
 const inquirer = require('inquirer');
 const mysql = require('mysql');
 const commaNumber = require('comma-number');
-const Department = require(__dirname + '/classes/Department.js');
-const Role = require(__dirname + '/classes/Role.js');
-const Employee = require(__dirname + '/classes/Employee.js');
+const Department = require(__dirname + 'department.js');
+const Role = require(__dirname + 'role.js');
+const Employee = require(__dirname + 'employee.js');
 
 // const viewFunctions = require(__dirname + '/crud-functions/read-functions/view.js');
 
