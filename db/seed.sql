@@ -7,7 +7,7 @@ VALUES('Sales'),
 ('Legal');
 
 INSERT INTTO roles (title, salary,department_id)
-VALUES ('Sales Leaad', 20000, 1),
+VALUES ('Sales Lead', 20000, 1),
 ('Salesperson' , 10000, 1),
 ('Lead Engineer', 35000, 2),
 ('Software Engineer', 25000, 2),
