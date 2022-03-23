@@ -8,7 +8,6 @@ Non-developers frequently require developers to provide interfaces that allow th
 - [User Story](#user-story)
 - [walkthrough](#walkthrough)
 - [Installation](#installation)
--
 
 ## User Story
 
