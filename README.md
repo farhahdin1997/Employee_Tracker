@@ -18,7 +18,7 @@ SO THAT I can organize and plan my business
 
 ## Walkthrough 
 
-
+[![Watch the video](https://drive.google.com/file/d/1C8pUtoHEm9vezeYLOoRrktRApbm1k8-X/view)](hhttps://drive.google.com/file/d/1C8pUtoHEm9vezeYLOoRrktRApbm1k8-X/view)
 ## Installation
 
 ```
