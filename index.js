@@ -1,17 +1,17 @@
- require('console.table');
+require('console.table');
 const inquirer = require('inquirer');
-const mysql = require('mysql');
+const mysql = require('mysql2');
 const commaNumber = require('comma-number');
-const Department = require(__dirname + 'department.js');
-const Role = require(__dirname + 'role.js');
-const Employee = require(__dirname + 'employee.js');
-
+const Department = require('./department');
+const Role = require('./role');
+const Employee = require('./employee');
+require ("dotenv").config ();
 // const viewFunctions = require(__dirname + '/crud-functions/read-functions/view.js');
 
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '',
+    password: process.env.MYSQL,
     database: 'company_db'
 });
 
@@ -19,7 +19,9 @@ const connection = mysql.createConnection({
 // What would you like to do?
 
 console.log('\n\nWelcome to the Employee Tracker\n\n===============================');
-connection.connect();
+connection.connect(function (err){
+    if (err)throw err 
+});
 init();
 
 function init() {
