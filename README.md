@@ -17,8 +17,9 @@ SO THAT I can organize and plan my business
 ```
 
 ## Walkthrough 
+![Untitled_ Mar 23, 2022 8_48 PM](https://user-images.githubusercontent.com/81389441/160014484-519d42d4-89a0-4555-ac3c-b8a90e7a0115.gif)
 
-[![Watch the video](https://drive.google.com/file/d/1C8pUtoHEm9vezeYLOoRrktRApbm1k8-X/view)](hhttps://drive.google.com/file/d/1C8pUtoHEm9vezeYLOoRrktRApbm1k8-X/view)
+
 ## Installation
 
 ```
